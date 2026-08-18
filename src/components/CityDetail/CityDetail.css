@@ -47,8 +47,8 @@
 
 .city-detail__nav {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   gap: 8px;
 }
 
@@ -63,6 +63,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .city-detail__btn_nav {
@@ -90,6 +91,6 @@
 
 @media (max-width: 400px) {
   .city-detail__nav {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 }
