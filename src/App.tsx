@@ -1,32 +1,30 @@
-import { useMemo } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { citiesData } from './data/cities';
-import { type ICity } from './types';
-import HomePage from './components/HomePage/HomePage';
-import { CoatOfArmsGame } from './components/CoatOfArmsGame/CoatOfArmsGame';
-import CityList from './components/CityList/CityList';
-import CityDetail from './components/CityDetail/CityDetail';
+import { useMemo } from "react";
+import { Routes, Route } from "react-router-dom";
+import { citiesData } from "./data/cities";
+import { type ICity } from "./types";
+import HomePage from "./components/HomePage/HomePage";
+import { CoatOfArmsGame } from "./components/CoatOfArmsGame/CoatOfArmsGame";
+import CityList from "./components/CityList/CityList";
+import CityDetail from "./components/CityDetail/CityDetail";
 
 function App() {
+ const sortedCities: ICity[] = useMemo(() => {
+  return [...citiesData].sort((a, b) => a.name.localeCompare(b.name, "ru"));
+ }, []);
 
-   const sortedCities: ICity[] = useMemo(() => {
-    return [...citiesData].sort((a, b) => a.name.localeCompare(b.name, 'ru'));
-  }, []);
+ return (
+  <div className="app">
+   <Routes>
+    <Route path="/" element={<HomePage />} />
 
-  return (
-     <div className="app">
-      <Routes>
+    <Route path="/quiz" element={<CoatOfArmsGame />} />
 
-        <Route path="/" element={<HomePage />} />
+    <Route path="/cities" element={<CityList cities={sortedCities} />} />
 
-        <Route path="/quiz" element={<CoatOfArmsGame />} />
-
-        <Route path="/cities" element={<CityList cities={sortedCities}/>} />
-
-        <Route path="/cities/:id" element={<CityDetail cities={sortedCities}/>} />
-      </Routes>
-    </div>
-  )
+    <Route path="/cities/:id" element={<CityDetail cities={sortedCities} />} />
+   </Routes>
+  </div>
+ );
 }
 
-export default App
+export default App;
