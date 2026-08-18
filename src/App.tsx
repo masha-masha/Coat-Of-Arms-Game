@@ -9,9 +9,9 @@ import CityDetail from './components/CityDetail/CityDetail';
 
 function App() {
 
-  //  const sortedCities: ICity[] = useMemo(() => {
-  //   return [...citiesData].sort((a, b) => a.name.localeCompare(b.name, 'ru'));
-  // }, []);
+   const sortedCities: ICity[] = useMemo(() => {
+    return [...citiesData].sort((a, b) => a.name.localeCompare(b.name, 'ru'));
+  }, []);
 
   return (
      <div className="app">

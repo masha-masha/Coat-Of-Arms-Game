@@ -1,0 +1,70 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.home__container {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 28px;
+  padding: clamp(32px, 6vw, 48px) 24px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 40px -15px rgba(2, 132, 199, 0.08);
+}
+
+.home__title {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 500;
+  margin: 0 0 32px 0;
+  line-height: 1.2;
+  color: #3a3351;
+}
+
+.home__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.home__button {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15 ease, background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home__button:active {
+  transform: scale(0.98);
+}
+
+.home__button_primary {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.home__button_primary:hover {
+  background-color: #0369a1;
+}
+
+.home__button_secondary {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+}
+
+.home__button_secondary:hover {
+  background-color: #e2e8f0;
+}
