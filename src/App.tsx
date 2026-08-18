@@ -23,7 +23,7 @@ function App() {
 
         <Route path="/cities" element={<CityList cities={sortedCities}/>} />
 
-        <Route path="/cities/:id" element={<CityDetail/>} />
+        <Route path="/cities/:id" element={<CityDetail cities={sortedCities}/>} />
       </Routes>
     </div>
   )

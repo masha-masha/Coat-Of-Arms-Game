@@ -1,0 +1,95 @@
+.city-detail {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+}
+
+.city-detail__container {
+  width: 100%;
+  max-width: 480px;
+}
+
+.city-detail__card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 36px 24px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.city-detail__image-wrapper {
+  width: 180px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.city-detail__image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.city-detail__title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0 0 32px 0;
+  color: #0f172a;
+}
+
+.city-detail__nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.city-detail__btn {
+  padding: 10px 8px;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-detail__btn_nav {
+  background-color: #f1f5f9;
+  color: #334155;
+}
+
+.city-detail__btn_nav:hover:not(:disabled) {
+  background-color: #e2e8f0;
+}
+
+.city-detail__btn_nav:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.city-detail__btn_home {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.city-detail__btn_home:hover {
+  background-color: #0369a1;
+}
+
+@media (max-width: 400px) {
+  .city-detail__nav {
+    grid-template-columns: 1fr;
+  }
+}
