@@ -1,9 +1,9 @@
-
+import { CoatOfArmsGame } from "./components/CoatOfArmsGame/CoatOfArmsGame"
 function App() {
 
   return (
     <>
-     Hi
+     <CoatOfArmsGame/>
     </>
   )
 }

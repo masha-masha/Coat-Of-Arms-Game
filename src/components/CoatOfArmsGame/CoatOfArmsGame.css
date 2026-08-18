@@ -1,0 +1,137 @@
+.city-quiz {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  background-color: #f8fafc;
+}
+
+.city-quiz__container {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.city-quiz__card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 32px 24px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-quiz__image-wrapper {
+  width: 160px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.city-quiz__image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.city-quiz__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.city-quiz__label {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #475569;
+  text-align: center;
+}
+
+.city-quiz__input {
+  font-family: system-ui, -apple-system, sans-serif;
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.city-quiz__input:focus {
+  border-color: #0284c7;
+}
+
+.city-quiz__input_correct {
+  border-color: #10b981;
+  background-color: #f0fdf4;
+}
+
+.city-quiz__input_incorrect {
+  border-color: #ef4444;
+  background-color: #fef2f2;
+}
+
+.city-quiz__button {
+  font-family: system-ui, -apple-system, sans-serif;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.city-quiz__button:active {
+  transform: scale(0.98);
+}
+
+.city-quiz__button_submit {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.city-quiz__button_submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.city-quiz__button_next {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.city-quiz__message {
+  font-family: system-ui, -apple-system, sans-serif;
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.city-quiz__message_correct {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.city-quiz__message_incorrect {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}

@@ -4,7 +4,4 @@ export interface ICity {
   country: string; 
   coatOfArmsUrl: string; 
   aliases: string[]; 
-
 }
-
-export type GameStatus = 'playing' | 'correct' | 'wrong' | 'revealed';
