@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { type ICity } from "../../types";
 import { citiesData } from "../../data/cities";
+import { Link } from "react-router-dom";
 import "./CoatOfArmsGame.css";
 
 type QuizStatus = "idle" | "correct" | "incorrect";
@@ -104,6 +105,9 @@ export const CoatOfArmsGame: React.FC = () => {
         Следующий город
        </button>
       )}
+       <Link to="/" className="city-quiz__button city-quiz__back-link">
+          ← На главную
+        </Link>
      </form>
     </div>
    </div>

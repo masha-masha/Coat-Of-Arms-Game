@@ -112,6 +112,11 @@
   color: #ffffff;
 }
 
+.city-quiz__back-link {
+    text-align: center;
+    color: #0284c7;
+    background-color: #f2efef;
+}
 .city-quiz__message {
   font-family: system-ui, -apple-system, sans-serif;
   width: 100%;
