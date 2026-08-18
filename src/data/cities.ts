@@ -113,7 +113,7 @@ export const citiesData: ICity[] = [
   {
     id: 19,
     name: 'Молодечно / Маладзечна',
-    coatOfArmsUrl: '/coats-of-arms/Moladechna.svg',
+    coatOfArmsUrl: '/coats-of-arms/Maladechna.svg',
     aliases: ['молодечно', 'маладзечна', 'molodechno', 'maladzechyna'],
   },
   {

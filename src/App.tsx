@@ -21,7 +21,7 @@ function App() {
 
         <Route path="/quiz" element={<CoatOfArmsGame />} />
 
-        <Route path="/cities" element={<CityList/>} />
+        <Route path="/cities" element={<CityList cities={sortedCities}/>} />
 
         <Route path="/cities/:id" element={<CityDetail/>} />
       </Routes>
