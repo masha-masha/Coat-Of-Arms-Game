@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="351.14041"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Coat_of_Arms_of_Vasilevičy,_Belarus.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4028238"
+     inkscape:cx="-11.761991"
+     inkscape:cy="167.51926"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 298.23548,195.86224 V 1.7645251 H 1.795326 V 195.86224 c -3.5290494,204.68487 296.440154,204.68487 296.440154,0 z"
+     fill="#3c82c2"
+     stroke="#000000"
+     id="path1"
+     style="stroke-width:3.52905" />
+  <g
+     transform="matrix(0.52935741,0,0,0.52935741,0.03080133,3.5588531e-7)"
+     id="g1">
+    <path
+       id="a"
+       d="m 305,625 h -48 v -54 l -175,-80 11,-24 165,75 2,-78 -141,-64 10,-22 132,60 3,-81 -108,-49 10,-22 99,46 3,-84 -73,-34 7,-17 67,31 3,-86 -41,-19 7,-15 34,16 V 33 h 19"
+       fill="#ffffff" />
+    <use
+       transform="matrix(-1,0,0,1,568,0)"
+       xlink:href="#a"
+       id="use1" />
+  </g>
+</svg>
