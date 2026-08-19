@@ -55,20 +55,20 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Homiel.svg',
     aliases: ['гомель', 'gomel', 'homel'],
   },
-   {
+  {
     id: 10,
     name: 'Смолевичи / Смалявичi',
     coatOfArmsUrl: '/coats-of-arms/Smalavicy.svg',
     aliases: ['смолевичи', 'Смалявичi', 'smalavicy'],
   },
 
-   {
+  {
     id: 11,
     name: 'Могилев / Магілёў',
     coatOfArmsUrl: '/coats-of-arms/Mahilou.svg',
     aliases: ['могилев', 'магілёў', 'могилёв', 'магілеў', 'mogilev', 'mahilyow'],
   },
-   {
+  {
     id: 12,
     name: 'Бобруйск / Бабруйск',
     coatOfArmsUrl: '/coats-of-arms/Babruisk.svg',
@@ -86,7 +86,7 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Borisov.svg',
     aliases: ['борисов', 'барысаў', 'borisov', 'barysaw'],
   },
-   {
+  {
     id: 15,
     name: 'Орша / Ворша',
     coatOfArmsUrl: '/coats-of-arms/Orsha.svg',
@@ -128,7 +128,7 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Slutsk.svg',
     aliases: ['слуцк', 'слуцак', 'slutsk', 'slucak'],
   },
-   {
+  {
     id: 22,
     name: 'Жлобин / Жлобін',
     coatOfArmsUrl: '/coats-of-arms/Zhlobin.png',
@@ -212,14 +212,14 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Glubokae.svg',
     aliases: ['глубокое', 'глыбокае', 'glubokoye', 'hlybokaye'],
   },
-  
+
   {
     id: 36,
     name: 'Жодино / Жодзіна',
     coatOfArmsUrl: '/coats-of-arms/Zhodina.svg',
     aliases: ['жодино', 'жодзіна', 'zhodino', 'zhodzina'],
   },
-   {
+  {
     id: 37,
     name: 'Вилейка / Вілейка',
     coatOfArmsUrl: '/coats-of-arms/Vileyka.svg',
@@ -243,7 +243,7 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Stolbtsy.svg',
     aliases: ['столбцы', 'стаўбцы', 'stolbtsy', 'stawbcy'],
   },
-    {
+  {
     id: 41,
     name: 'Фаниполь / Фаніпаль',
     coatOfArmsUrl: '/coats-of-arms/Fanipol.svg',
@@ -297,7 +297,7 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Myadel.svg',
     aliases: ['мядель', 'мядзел', 'myadel', 'miadziel'],
   },
-    {
+  {
     id: 50,
     name: 'Береза / Бяроза',
     coatOfArmsUrl: '/coats-of-arms/Bereza.svg',
@@ -381,7 +381,7 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Mikashevichi.svg',
     aliases: ['микашевичи', 'мікашэвічы', 'mikashevichi', 'mikashevichy'],
   },
-   {
+  {
     id: 64,
     name: 'Поставы / Паставы',
     coatOfArmsUrl: '/coats-of-arms/Postavy.svg',
@@ -520,7 +520,7 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Vetka.svg',
     aliases: ['ветка', 'vetka'],
   },
-    {
+  {
     id: 87,
     name: 'Слоним / Слонім',
     coatOfArmsUrl: '/coats-of-arms/Slonim.svg',
@@ -580,7 +580,7 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Ostrovets.svg',
     aliases: ['островец', 'астравец', 'ostrovets', 'astraviec'],
   },
-   {
+  {
     id: 97,
     name: 'Горки / Горкі',
     coatOfArmsUrl: '/coats-of-arms/Gorki.svg',
@@ -604,90 +604,114 @@ export const citiesData: ICity[] = [
     coatOfArmsUrl: '/coats-of-arms/Bykhov.svg',
     aliases: ['быхов', 'быхаў', 'bykhov', 'bychaw'],
   },
-  // {
-  //   id: 101,
-  //   name: 'Климовичи / Клімавічы',
-  //   coatOfArmsUrl: '/coat-of-arms/Klimovichi.svg',
-  //   aliases: ['климовичи', 'клімавічы', 'klimovichi', 'klimavichy'],
-  // },
-  // {
-  //   id: 104,
-  //   name: 'Костюковичи / Касцюковічы',
-  //   coatOfArmsUrl: '/coat-of-arms/Kostyukovichi.svg',
-  //   aliases: ['костюковичи', 'касцюковічы', 'kostyukovichi', 'kasciukovichy'],
-  // },
-  // {
-  //   id: 105,
-  //   name: 'Мстиславль / Мсціслаў',
-  //   coatOfArmsUrl: '/coat-of-arms/Mstislavl.svg',
-  //   aliases: ['мстиславль', 'мсціслаў', 'амсціслаў', 'mstislavl', 'mscislaw'],
-  // },
-  // {
-  //   id: 106,
-  //   name: 'Чаусы / Чавусы',
-  //   coatOfArmsUrl: '/coat-of-arms/Chausy.svg',
-  //   aliases: ['чаусы', 'чавусы', 'chausy', 'chavusy'],
-  // },
-  // {
-  //   id: 107,
-  //   name: 'Чериков / Чэрыкаў',
-  //   coatOfArmsUrl: '/coat-of-arms/Cherikov.svg',
-  //   aliases: ['чериков', 'чэрыкаў', 'cherikov', 'cherykaw'],
-  // },
-  // {
-  //   id: 108,
-  //   name: 'Кировск / Кіраўск',
-  //   coatOfArmsUrl: '/coat-of-arms/Kirovsk.svg',
-  //   aliases: ['кировск', 'кіраўск', 'kirovsk', 'kirawsk'],
-  // },
-  // {
-  //   id: 109,
-  //   name: 'Кличев / Клічаў',
-  //   coatOfArmsUrl: '/coat-of-arms/Klichev.svg',
-  //   aliases: ['кличев', 'клічаў', 'klichev', 'klicaw'],
-  // },
-  // {
-  //   id: 110,
-  //   name: 'Белыничи / Бялынічы',
-  //   coatOfArmsUrl: '/coat-of-arms/Belynichi.svg',
-  //   aliases: ['белыничи', 'бялынічы', 'belynichi', 'bialynicy'],
-  // },
+  {
+    id: 101,
+    name: 'Климовичи / Клімавічы',
+    coatOfArmsUrl: '/coats-of-arms/Klimovichi.svg',
+    aliases: ['климовичи', 'клімавічы', 'klimovichi', 'klimavichy'],
+  },
+  {
+    id: 102,
+    name: 'Костюковичи / Касцюковічы',
+    coatOfArmsUrl: '/coats-of-arms/Kostyukovichi.png',
+    aliases: ['костюковичи', 'касцюковічы', 'kostyukovichi', 'kasciukovichy'],
+  },
+  {
+    id: 103,
+    name: 'Мстиславль / Мсціслаў',
+    coatOfArmsUrl: '/coats-of-arms/Mstislavl.png',
+    aliases: ['мстиславль', 'мсціслаў', 'амсціслаў', 'mstislavl', 'mscislaw'],
+  },
+  {
+    id: 104,
+    name: 'Чаусы / Чавусы',
+    coatOfArmsUrl: '/coats-of-arms/Chausy.svg',
+    aliases: ['чаусы', 'чавусы', 'chausy', 'chavusy'],
+  },
+  {
+    id: 105,
+    name: 'Чериков / Чэрыкаў',
+    coatOfArmsUrl: '/coats-of-arms/Cherikov.svg',
+    aliases: ['чериков', 'чэрыкаў', 'cherikov', 'cherykaw'],
+  },
+  {
+    id: 106,
+    name: 'Кировск / Кіраўск',
+    coatOfArmsUrl: '/coats-of-arms/Kirovsk.png',
+    aliases: ['кировск', 'кіраўск', 'kirovsk', 'kirawsk'],
+  },
+  {
+    id: 107,
+    name: 'Кличев / Клічаў',
+    coatOfArmsUrl: '/coats-of-arms/Klichev.svg',
+    aliases: ['кличев', 'клічаў', 'klichev', 'klicaw'],
+  },
+  {
+    id: 108,
+    name: 'Белыничи / Бялынічы',
+    coatOfArmsUrl: '/coats-of-arms/Belynichi.png',
+    aliases: ['белыничи', 'бялынічы', 'belynichi', 'bialynicy'],
+  },
 
-  // {
-  //   id: 111,
-  //   name: 'Славгород / Слаўгарад',
-  //   coatOfArmsUrl: '/coat-of-arms/Slavgorod.svg',
-  //   aliases: ['славгород', 'слаўгарад', 'прапойск', 'пропойск', 'slavgorod'],
-  // },
-  // {
-  //   id: 112,
-  //   name: 'Мядель / Мядзел',
-  //   coatOfArmsUrl: '/coat-of-arms/Myadel.svg',
-  //   aliases: ['мядель', 'мядзел', 'myadel'],
-  // },
-  // {
-  //   id: 113,
-  //   name: 'Узда / Узда',
-  //   coatOfArmsUrl: '/coat-of-arms/Uzda.svg',
-  //   aliases: ['узда', 'uzda'],
-  // },
-  // {
-  //   id: 114,
-  //   name: 'Червень / Чэрвень',
-  //   coatOfArmsUrl: '/coat-of-arms/Cherven.svg',
-  //   aliases: ['червень', 'чэрвень', 'ігумен', 'игумен', 'cherven'],
-  // },
-  // {
-  //   id: 115,
-  //   name: 'Высокое / Высокае',
-  //   coatOfArmsUrl: '/coat-of-arms/Vysokoye.svg',
-  //   aliases: ['высокое', 'высокае', 'высока-літоўск', 'vysokoye', 'vysokaje'],
-  // },
-  // {
-  //   id: 116,
-  //   name: 'Сенно / Сянно',
-  //   coatOfArmsUrl: '/coat-of-arms/Senno.svg',
-  //   aliases: ['сенно', 'сянно', 'senno'],
-  // },
-  // {
+  {
+    id: 109,
+    name: 'Славгород / Слаўгарад',
+    coatOfArmsUrl: '/coats-of-arms/Slavgorod.svg',
+    aliases: ['славгород', 'слаўгарад', 'прапойск', 'пропойск', 'slavgorod'],
+  },
+  {
+    id: 110,
+    name: 'Узда / Узда',
+    coatOfArmsUrl: '/coats-of-arms/Uzda.svg',
+    aliases: ['узда', 'uzda'],
+  },
+  {
+    id: 111,
+    name: 'Червень / Чэрвень',
+    coatOfArmsUrl: '/coats-of-arms/Cherven.svg',
+    aliases: ['червень', 'чэрвень', 'ігумен', 'игумен', 'cherven'],
+  },
+  {
+    id: 112,
+    name: 'Высокое / Высокае',
+    coatOfArmsUrl: '/coats-of-arms/Vysokoye.png',
+    aliases: ['высокое', 'высокае', 'высока-літоўск', 'vysokoye', 'vysokaje'],
+  },
+  {
+    id: 113,
+    name: 'Давид-Городок / Давыд-Гарадок',
+    coatOfArmsUrl: '/coats-of-arms/DavidGorodok.png',
+    aliases: [
+      'давид-городок',
+      'давыд-гарадок',
+      'давид городок',
+      'давыд гарадок',
+      'david-gorodok',
+      'davyharadok'
+    ],
+  },
+  {
+    id: 114,
+    name: 'Белоозерск / Белаазёрск',
+    coatOfArmsUrl: '/coats-of-arms/Beloozersk.png',
+    aliases: [
+      'белоозерск',
+      'белаазёрск',
+      'белаазерск',
+      'белоозёрск',
+      'beloozersk',
+      'bielaaziorsk'
+    ],
+  },
+  {
+    id: 115,
+    name: 'Круглое / Круглае',
+    coatOfArmsUrl: '/coats-of-arms/Krugloye.png',
+    aliases: [
+      'круглое',
+      'круглае',
+      'krugloye',
+      'kruhlaye'
+    ],
+  },
 ];
