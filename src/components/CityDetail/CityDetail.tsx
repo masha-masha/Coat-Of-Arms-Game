@@ -25,10 +25,6 @@ const CityDetail: React.FC<CityDetailProps> = ({ cities }) => {
   );
  }
 
- const prevCity = currentIndex > 0 ? cities[currentIndex - 1] : null;
- const nextCity =
-  currentIndex < cities.length - 1 ? cities[currentIndex + 1] : null;
-
  return (
   <section className="city-detail">
    <div className="city-detail__container">
