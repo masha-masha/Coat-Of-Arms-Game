@@ -44,7 +44,7 @@ const CityDetail: React.FC<CityDetailProps> = ({ cities }) => {
        className="city-detail__btn city-detail__btn_home"
        onClick={() => navigate(-1)}
       >
-      К списку
+      к списку
       </button>
      </div>
     </div>

@@ -12,6 +12,7 @@ export const citiesData: ICity[] = [
     name: 'Гродно / Горадня',
     coatOfArmsUrl: '/coats-of-arms/Hrodna.svg',
     aliases: ['гродно', 'горадне', 'гародня', 'hrodna'],
+    categories: ["animals"],
   },
   {
     id: 3,
@@ -54,6 +55,7 @@ export const citiesData: ICity[] = [
     name: 'Гомель / Гомель',
     coatOfArmsUrl: '/coats-of-arms/Homiel.svg',
     aliases: ['гомель', 'gomel', 'homel'],
+    categories: ["animals"],
   },
   {
     id: 10,
@@ -128,6 +130,7 @@ export const citiesData: ICity[] = [
     name: 'Слуцк / Слуцак',
     coatOfArmsUrl: '/coats-of-arms/Slutsk.svg',
     aliases: ['слуцк', 'слуцак', 'slutsk', 'slucak'],
+    categories: ["animals"],
   },
   {
     id: 22,
@@ -171,12 +174,14 @@ export const citiesData: ICity[] = [
     name: 'Волковыск / Ваўкавыск',
     coatOfArmsUrl: '/coats-of-arms/Volkovysk.svg',
     aliases: ['волковыск', 'ваўкавыск', 'volkovysk', 'vawkavysk'],
+    categories: ["animals"],
   },
   {
     id: 29,
     name: 'Сморгонь / Смаргонь',
     coatOfArmsUrl: '/coats-of-arms/Smargon.svg',
     aliases: ['сморгонь', 'смаргонь', 'smorgon', 'smarhon'],
+    categories: ["animals"],
   },
   {
     id: 30,
@@ -399,6 +404,7 @@ export const citiesData: ICity[] = [
     name: 'Городок / Гарадок',
     coatOfArmsUrl: '/coats-of-arms/Gorodok.svg',
     aliases: ['городок', 'гарадок', 'gorodok', 'haradok'],
+    categories: ["animals"],
   },
   {
     id: 66,
@@ -533,12 +539,14 @@ export const citiesData: ICity[] = [
     name: 'Слоним / Слонім',
     coatOfArmsUrl: '/coats-of-arms/Slonim.svg',
     aliases: ['слоним', 'слонім', 'slonim'],
+    categories: ["animals"],
   },
   {
     id: 88,
     name: 'Ошмяны / Ашмяны',
     coatOfArmsUrl: '/coats-of-arms/Oshmiany.svg',
     aliases: ['ошмяны', 'ашмяны', 'oshmiany', 'asmiany'],
+    categories: ["animals"],
   },
   {
     id: 89,
@@ -575,6 +583,7 @@ export const citiesData: ICity[] = [
     name: 'Свислочь / Свіслач',
     coatOfArmsUrl: '/coats-of-arms/Svisloch.svg',
     aliases: ['свислочь', 'свіслач', 'svisloch', 'swislac'],
+    categories: ["animals"],
   },
   {
     id: 95,
@@ -629,6 +638,7 @@ export const citiesData: ICity[] = [
     name: 'Мстиславль / Мсціслаў',
     coatOfArmsUrl: '/coats-of-arms/Mstislavl.png',
     aliases: ['мстиславль', 'мсціслаў', 'амсціслаў', 'mstislavl', 'mscislaw'],
+    categories: ["animals"],
   },
   {
     id: 104,
