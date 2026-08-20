@@ -39,7 +39,6 @@
   font-size: 0.95rem;
 }
 
-/* Фильтры (горизонтальный скролл на мобилках) */
 .categories-page__filters {
   display: flex;
   flex-wrap: wrap;
@@ -79,7 +78,6 @@
   color: #ffffff;
 }
 
-/* Адаптивная сетка гербов */
 .categories-page__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

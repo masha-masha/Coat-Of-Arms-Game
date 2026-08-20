@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 interface CityDetailProps {
  cities: ICity[];
+
 }
 
 const CityDetail: React.FC<CityDetailProps> = ({ cities }) => {
@@ -43,37 +44,12 @@ const CityDetail: React.FC<CityDetailProps> = ({ cities }) => {
      <h1 className="city-detail__title">{currentCity.name}</h1>
 
      <div className="city-detail__nav">
-      {prevCity ? (
-       <Link
-        to={`/cities/${prevCity.id}`}
-        className="city-detail__btn city-detail__btn_nav"
-       >
-        ← Предыдущий
-       </Link>
-      ) : (
-       <button className="city-detail__btn city-detail__btn_disabled" disabled>
-        ← Предыдущий
-       </button>
-      )}
       <button
        className="city-detail__btn city-detail__btn_home"
        onClick={() => navigate(-1)}
       >
-       ← Назад
+      К списку
       </button>
-
-      {nextCity ? (
-       <Link
-        to={`/cities/${nextCity.id}`}
-        className="city-detail__btn city-detail__btn_nav"
-       >
-        Следующий →
-       </Link>
-      ) : (
-       <button className="city-detail__btn city-detail__btn_disabled" disabled>
-        Следующий →
-       </button>
-      )}
      </div>
     </div>
    </div>
