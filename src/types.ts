@@ -4,6 +4,7 @@ export interface ICity {
   coatOfArmsUrl: string;
   aliases: string[];
   categories?: string[];
+  facts?: string[]; 
 }
 
 export interface ICategory {
