@@ -97,6 +97,7 @@ export const citiesData: ICity[] = [
     name: 'Мозырь / Мазыр',
     coatOfArmsUrl: '/coats-of-arms/Mozyr.svg',
     aliases: ['мозырь', 'мазыр', 'mozyr', 'mazyr'],
+    categories: ["birds"],
   },
   {
     id: 17,
@@ -157,6 +158,7 @@ export const citiesData: ICity[] = [
     name: 'Несвиж / Нясвіж',
     coatOfArmsUrl: '/coats-of-arms/Nesvizh.svg',
     aliases: ['несвиж', 'нясвіж', 'nesvizh', 'niasvizh'],
+    categories: ["birds"],
   },
   {
     id: 27,
@@ -254,12 +256,14 @@ export const citiesData: ICity[] = [
     name: 'Березино / Беразіно',
     coatOfArmsUrl: '/coats-of-arms/Berezino.svg',
     aliases: ['березино', 'беразіно', 'berezino', 'bierazino'],
+    categories: ["animals"],
   },
   {
     id: 43,
     name: 'Любань / Любань',
     coatOfArmsUrl: '/coats-of-arms/Lyuban.svg',
     aliases: ['любань', 'lyuban'],
+    categories: ["birds"],
   },
   {
     id: 44,
@@ -338,18 +342,21 @@ export const citiesData: ICity[] = [
     name: 'Столин / Столін',
     coatOfArmsUrl: '/coats-of-arms/Stolin.svg',
     aliases: ['столин', 'столін', 'stolin'],
+    categories: ["birds"],
   },
   {
     id: 57,
     name: 'Ганцевичи / Ганцавічы',
     coatOfArmsUrl: '/coats-of-arms/Gantsevichi.svg',
     aliases: ['ганцевичи', 'ганцавічы', 'gantsevichi', 'hancavichy'],
+    categories: ["birds"],
   },
   {
     id: 58,
     name: 'Дрогичин / Драгічын',
     coatOfArmsUrl: '/coats-of-arms/Drogichin.svg',
     aliases: ['дрогичин', 'драгічын', 'drogichin', 'drahichyn'],
+    categories: ["birds"],
   },
   {
     id: 59,
@@ -422,6 +429,7 @@ export const citiesData: ICity[] = [
     name: 'Миоры / Міёры',
     coatOfArmsUrl: '/coats-of-arms/Miori.svg',
     aliases: ['миоры', 'міёры', 'мёры', 'miori', 'miory'],
+    categories: ["birds"],
   },
   {
     id: 71,

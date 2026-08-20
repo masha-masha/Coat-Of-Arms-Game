@@ -9,10 +9,13 @@ const HomePage = () => {
 
     <div className="home__actions">
      <Link to="/quiz" className="home__button home__button_primary">
-      Угадать город
+      Угадать город по гербу
      </Link>
      <Link to="/cities" className="home__button home__button_secondary">
-      Посмотреть города
+      Посмотреть все гербы
+     </Link>
+     <Link to="/cities-by-category" className="home__button home__button_secondary">
+      Посмотреть гербы по категориям
      </Link>
     </div>
    </div>
